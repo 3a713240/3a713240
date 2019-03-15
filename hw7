@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(void){
+int a=0,y=0,z=0;
+scanf("%d",&z);
+for(a=0;a<=z;a++)
+{
+y+=a;
+
+	
+}
+	
+	
+printf("1+2+...+ %d =%d",z,y);
+system("pause");
+return 0;	
+	
+	
+}
